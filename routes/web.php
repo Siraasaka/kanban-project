@@ -25,4 +25,5 @@ Route::prefix('tasks')
         Route::get('/create', 'create')->name('create');
         Route::post('/', 'store')->name('store');  // Ditambahkan
         Route::get('{id}/edit', 'edit')->name('edit');
+        Route::put('{id}/update', 'update')->name('update');
     });

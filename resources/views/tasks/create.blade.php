@@ -18,7 +18,7 @@
 
       <div class="form-item">
         <label>Detail:</label>
-        <textarea class="form-text-area" name="detail">{{ old('detail') }}</textarea>
+        <textarea class="form-text-area" name="detail" value="{{ old('detail') }}"></textarea>
       </div>
 
       <div class="form-item">
